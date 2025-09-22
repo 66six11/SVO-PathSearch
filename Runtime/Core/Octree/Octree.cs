@@ -10,6 +10,7 @@ namespace SVO.Runtime.Core.Octree
     /// </summary>
     public class Octree<T>
     {
+        
         public OctreeNode<T> Root { get; private set; }
         private readonly int _maxDepth;
 
